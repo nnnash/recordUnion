@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.js should render both Dialog and NotesList 1`] = `
+<_default>
+  <mapProps(NotesList)
+    delay={2000}
+    noteDelay={2000}
+  >
+    <NotesList
+      noteDelay={2000}
+    />
+  </mapProps(NotesList)>
+  <mapProps(Dialog)
+    delay={1000}
+  >
+    <Dialog />
+  </mapProps(Dialog)>
+</_default>
+`;

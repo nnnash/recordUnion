@@ -1,0 +1,24 @@
+@font-face {
+    font-family: sofia-pro;
+    src: url(https://use.typekit.net/af/c5ee9a/0000000000000000000157a9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"), url(https://use.typekit.net/af/c5ee9a/0000000000000000000157a9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"), url(https://use.typekit.net/af/c5ee9a/0000000000000000000157a9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+:global(html), :global(body) {
+    margin: 0;
+    height: 100%;
+}
+
+:global(#app) {
+    height: 100%;
+    padding: 20px;
+
+    background: white;
+
+    font-family: sofia-pro, Arial, sans-serif;
+}
+
+:global(*) {
+    box-sizing: border-box;
+}

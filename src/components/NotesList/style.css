@@ -1,0 +1,27 @@
+.notesList {
+    max-width: 500px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    & > * {
+        border-top: 1px solid #333333;
+
+        &:first-child {
+            border-top: none;
+        }
+    }
+}
+
+.leave {
+    opacity: 1;
+    transform: translateX(0);
+    transition: .3s;
+
+    &.leaveActive {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+}
