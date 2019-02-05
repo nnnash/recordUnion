@@ -1,10 +1,11 @@
 .note {
-    display: flex;
-    flex-wrap: wrap;
-
     padding: 10px 0;
 
     font-size: 20px;
+}
+
+.firstLine {
+    display: flex;
 }
 
 .text {
